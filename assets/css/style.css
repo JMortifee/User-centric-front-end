@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.row {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*--------------------------------------------------Header-------*/
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    height: 75px;
+    width: auto;}
+
+
+.logo {
+    height: 75px;
+    width: auto;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    padding-top: 45px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    background-color: #b8b8b8;
+}
+
+/*---------------------------------------------------------Footer------*/
+
+.about {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #4e4e4e;
+    width: 100%;
+}
+
+.general-sub {
+    padding: 20px 0;
+    color: #b7c704;
+}
+
+footer p {
+    color: #f6f6f6fa;
+}
+
+
+footer h6 {
+    color: rgb(173, 173, 173);
+}
+
+.contact-info {
+    font-weight: 100;
+    color: #f6f6f6fa
+}
+
+.social-links {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: grey;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {  
+    background: 	#718d06;
+}
+
+#copyright {
+    background-color: rgb(44, 44, 44);
+    height: 75px;
+}
+
+#copyright h6 {
+    padding-top: 20px;
+}
+
+.cp-text {
+    color: grey;
+}
+
+/*-----------------------------------------------------Jumbotron-----*/
+
+.callout-container-home {
+    background: url("../images/maxresdefault.jpg") center center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 150px 0;
+    width: 100%;
+    height: 100%;   
+}
+
+.jumbotron-content-container {
+    width: auto;
+    height: auto;
+}
+
+.jumbotron-header {
+    text-align: center;
+    font-size: 50px;
+    color: #f6f6f6;
+    padding-bottom:75px;
+}
+
+.btn {
+    margin: 0 20px;
+    background-color: #b7c704;
+    border-color: transparent;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color:#718d06;
+    border-color: transparent;
+    color: #f6f6f6;
+}
+
+/*-------------------------------------------------------Home -*/
+
+.banner {
+    height: auto;
+    width: 100%;
+    background-color: #b7c704;
+    padding: 10px 0;
+}
+
+.banner h2 {
+    font-size: 40px;
+    color: #f6f6f6;
+}
+
+.home {
+    height: auto;
+    margin: 0;
+}
+
+.home h3, .home p {
+    margin: 30px 20px 20px 30px;
+}
+
+.image1, .image2, .image3 {
+    width: 100%;
+    overflow: hidden;   
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.hidden-md {
+    display: none;
+
+}
+
+
+/* --------------------------------------- Services */
+
+.callout-container-services {
+    background: url("https://westraycomputers.co.uk/wp-content/uploads/2019/11/hd-wallpapers-computer-1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*--------------------------------------- Contact ---*/
+
+.callout-container-contact {
+    background: url("https://img1.wsimg.com/isteam/stock/6yOme1a/:/rs=h:1000,cg:true,m") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-banner {
+    height: auto;
+    text-align: center;
+}
+
+.form-container-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 800px;
+    width: 100%;
+}
+
+form {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    color: #f6f6f6;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.names {
+    margin-bottom: 0;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+.fname {
+    padding-right: 10px;
+    padding-left: 0;  
+}
+
+.lname {
+    padding-right: 0;
+    padding-left: 10px;   
+}
+
+.send {
+    width: 20%;
+    margin-top: 20px;
+}
+
+/*-------------------------------------------------------large screen---*/
+
+@media only screen and (max-width: 1024px) {
+
+    /*logo*/
+
+    .logo {
+        height: auto;
+        max-height: 65px;
+        max-width: 50vw;
+        padding-left: 10px;
+    }   
+}
+
+/*------------------------------------------------------- small screen-----*/
+
+@media only screen and (max-width: 764px) {
+
+    * {
+        text-align: center;
+        padding-right: 0;
+    } 
+    
+    /*logo-sm*/
+
+    .logo {
+        height: auto;
+        max-height: 75px;
+        max-width: 50vw;
+        padding-left: 10px;
+    }
+
+    /*navbar-sm*/
+
+    .nav-item {
+        padding-top: 0;
+        padding-right: 0;
+        margin: auto;
+        letter-spacing: 2px;
+    }
+
+    /*footer-sm*/
+
+    .about {
+        margin-left: 0;
+    }
+
+    .social-links {
+        padding-top: 10px;
+        padding-right: 0;
+    }
+
+    .social-links li a i {
+        width: 40px;
+        height: 40px;
+        padding: 15px 0;
+        border-radius: 50%;
+        font-size: 20px;   
+    }
+
+    /*home-sm*/
+
+    /*jumbotron-sm*/
+
+    .callout-container-home {
+        background: url("../images/CEEDS-Centre-of-Digital-Excellence-Dublin.jpg") center center no-repeat fixed;
+        background-size: cover;
+    }
+    
+    .jumbotron-header {
+        font-size: 40px;
+    }
+    
+    .btn {
+        margin: 10px 20px;
+        width: 60vw;  
+    }
+
+    /* - */
+   
+    .home-banner h2 {
+        font-size: 20px;
+    }
+    
+    .hidden-md {
+        display: inline-block;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+    /*contact-sm*/
+
+    /* jumbotron */
+
+    .callout-container-contact {
+        background: url("../images/datacenter.jpg") no-repeat bottom fixed;
+        background-size: cover;
+    }
+
+    .contact-banner h2 {
+        font-size: 30px;
+    }
+
+    .contact-banner h3 {
+        font-size: 20px;
+    }
+
+    .form-container, .form-container-overlay {
+        height: auto;
+        width: 100%;
+    }
+
+    .form-group {
+        padding: 10px 10px 0 10px;
+
+    }
+
+    .lname, .fname {
+        padding: 0;
+        text-align: left;
+    }       
+  }
