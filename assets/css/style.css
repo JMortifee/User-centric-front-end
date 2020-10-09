@@ -16,6 +16,10 @@ body {
 a {
     color: #b7c704;
 }
+
+a:hover {
+    color: #718d06;
+}
 /*--------------------------------------------------Header-------*/
 
 header {
@@ -61,7 +65,7 @@ header {
 }
 
 footer {
-    background-color: #4e4e4e;
+    background-color: #3f3f3f;
     width: 100%;
 }
 
@@ -76,7 +80,7 @@ footer p {
 
 
 footer h5 {
-    color: #718d06;
+    color: #94a404;
 }
 
 .contact-info {
@@ -120,7 +124,7 @@ footer h5 {
 }
 
 .cp-text {
-    color: #718d06;
+    color: #94a404;
 }
 
 /*-----------------------------------------------------Jumbotron-----*/
@@ -372,7 +376,7 @@ form {
         width: 60vw;  
     }
 
-    /* - */
+    /* end jumbotron-sm */
    
     .home-banner h2 {
         font-size: 20px;
@@ -385,8 +389,6 @@ form {
     .hidden-sm {
         display: none;
     }
-
-    /*contact-sm*/
 
     /* jumbotron */
 
