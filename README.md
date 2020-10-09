@@ -11,7 +11,7 @@ Greenstride are specialists in IT relocation, installation, and recycling, based
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
-7. [SIte](https://jmortifee.github.io/user-centric-front-end/ target="_blank")
+7. <a href="https://jmortifee.github.io/user-centric-front-end/" target="_blank">Site</a>
 
 ## UX <a name="UX"></a>
 
@@ -112,3 +112,6 @@ Media
 The photos used in this site were obtained from ...
 Acknowledgements
 I received inspiration for this project from X
+
+
+Click <a href="https://jmortifee.github.io/user-centric-front-end/" target="_blank">here</a> to view the site.
