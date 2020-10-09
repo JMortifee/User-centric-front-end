@@ -130,7 +130,7 @@ footer h5 {
 /*-----------------------------------------------------Jumbotron-----*/
 
 .callout-container-home {
-    background: url("../images/maxresdefault.jpg") center center no-repeat fixed;
+    background: url("../images/home-hero.jpg") center center no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: auto
@@ -214,14 +214,14 @@ footer h5 {
 /* --------------------------------------- Services */
 
 .callout-container-services {
-    background: url("https://westraycomputers.co.uk/wp-content/uploads/2019/11/hd-wallpapers-computer-1.jpg") no-repeat center center fixed;
+    background: url("../images/services-hero.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 /*--------------------------------------- Contact ---*/
 
 .callout-container-contact {
-    background: url("https://img1.wsimg.com/isteam/stock/6yOme1a/:/rs=h:1000,cg:true,m") no-repeat center center fixed;
+    background: url("../images/contact-hero.webp") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -363,7 +363,7 @@ form {
     /*jumbotron-sm*/
 
     .callout-container-home {
-        background: url("../images/CEEDS-Centre-of-Digital-Excellence-Dublin.jpg") center center no-repeat fixed;
+        background: url("../images/home-mobile-hero.jpg") center center no-repeat fixed;
         background-size: cover;
     }
     
@@ -393,7 +393,7 @@ form {
     /* jumbotron */
 
     .callout-container-contact {
-        background: url("../images/datacenter.jpg") no-repeat bottom fixed;
+        background: url("../images/contact-mobile-hero.jpg") no-repeat bottom fixed;
         background-size: cover;
     }
 
