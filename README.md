@@ -161,6 +161,8 @@ I did not have the knowledge to be able to implement the code required to satisf
 For Validation of the contact form I used some Java Script written by <a href="https://github.com/academind">Academind</a>.
 This code validated the input content required in each input.
 
+![screenshot of validation script](screenshots/validate-script.png)
+
 these are the results of the test:
 
 *First, I sent the form with none of the fields filled:
@@ -186,16 +188,19 @@ Because I used Bootstraps built in, mobile first, design. The website works well
 
 Mobile layout:
 
-![screenshot of mobile layout](screenshots/mobile.png)
+![screenshot of mobile layout home](screenshots/mobile-home.png) ![screenshot of mobile layout services](screenshots/mobile-services.png) ![screenshot of mobile layout contact](screenshots/mobile-contact.png)
 
-Tablet/Medium screen size:
+Large screen size:
 
-![screenshot of tablet/ medium size layout](screenshots/tablet.png)
+![screenshot of large size layout home](screenshots/large-home.png)
+![screenshot of large size layout services](screenshots/large-services.png)
+![screenshot of large size layout contact](screenshots/large-contact.png)
 
-large screen size:
+X-large screen size:
 
-![screenshot of large size layout](screenshots/large.png)
-
+![screenshot of large size layout home](screenshots/xl-home.png)
+![screenshot of large size layout services](screenshots/xl-services.png)
+![screenshot of large size layout contact](screenshots/xl-contact.png)
 
 
 ## Deployment <a name="deployment"></a>
