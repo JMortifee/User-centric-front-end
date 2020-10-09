@@ -61,30 +61,34 @@
   </div>
  
   <div class="row form-container-overlay no-gutters">          
-    <form>
+    <form class="needs-validation" novalidate>
       <div class="form-group row names">
         <div class="col-sm-6 form-group fname">
           <label for="fname" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="fname" placeholder="First Name">  
+          <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+          <div class="invalid-feedback">Please enter your first name</div> 
         </div>
 
         <div class="col-sm-6 form-group lname">
           <label for="lname" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="lname" placeholder="Last Name">
+          <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+          <div class="invalid-feedback">Please enter your last name</div>
         </div>
       </div>
 
       <div class="form-group row">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Email">           
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+        <div class="invalid-feedback">Please enter a valid email address</div>          
       </div>
 
       <div class="form-group row">
         <label for="company" class="form-label">Company Name</label>
-        <input type="text" class="form-control" id="company" placeholder="Company">
+        <input type="text" class="form-control" id="company" placeholder="Company" required>
+        <div class="invalid-feedback">Please enter your company name</div>
       </div>
 
-      <fieldset class="form-group">
+      <fieldset class="form-group service-radio">
         <div class="row">
           <label class="form-label">Service</label>
           <div class="col">
@@ -111,15 +115,14 @@
 
       <div class="form-group row">
         <label for="enquiry" class="form-label">Enquiry</label>
-        <textarea class="form-control" id="enquiry" rows="5" placeholder="Type Enquiry Here"></textarea>
+        <textarea class="form-control" id="enquiry" rows="5" placeholder="Type Enquiry Here" required></textarea>
+        <div class="invalid-feedback">Please enter your enquiry</div>
       </div>
     
-      <div class="form-group row justify-content-center">
-        <button type="submit" class="btn send">Send</button>   
-      </div>
+      <button type="submit" class="btn send justify-content-centre">Send</button>   
+      
     </form>
   </div>
- 
 
   <footer>
     <div class="row" id="footer-details">
@@ -155,5 +158,19 @@
     </div>
       
   </footer>
+
+  <!-- validation script written by academind (https://github.com/academind)  -->
+
+  <script>
+    var form = document.querySelector('.needs-validation');
+
+    form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+    })
+  </script>
 </body>
 </html>
