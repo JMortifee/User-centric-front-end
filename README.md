@@ -247,7 +247,7 @@ services-img-3: https://gptwaste.com/wp-content/uploads/2019/07/WEEE.jpg
 
 ##### Contact
 
-contact-hero: https://img1.wsimg.com/isteam/stock/6yOme1a/:/rs=h:1000,cg:true,m
+contact-hero: https://datacenternews.asia/uploads/story/2019/12/17/GettyImages-988186834.jpg
 
 contact-mobile-hero: https://www.dqindia.com/wp-content/uploads/2016/02/datacenter.jpg
 
