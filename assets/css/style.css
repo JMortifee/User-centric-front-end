@@ -264,6 +264,15 @@ form {
     margin-top: 20px;
 }
 
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label {
+    color: #f6f6f6;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    border-color: #b7c704;
+    background-image: none;
+}
+
 /*-------------------------------------------------------large screen---*/
 
 @media only screen and (max-width: 1024px) {
