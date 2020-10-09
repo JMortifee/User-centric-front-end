@@ -45,7 +45,7 @@ __Solution for user story 3:__  Next to the learn more button there will be a qu
 
 ![Home Wireframe](wireframes/home-wireframe.png)
 
-__user story 4:__ The User is an existing customer and would like to see what their company has used Greestride for in the past.
+__User story 4:__ The User is an existing customer and would like to see what their company has used Greestride for in the past.
 
 __Solution to user story 4:__ A login section will allow users to see their previous invoices and transactions.
 
@@ -119,23 +119,84 @@ I used Balsamiq as it is a good-looking wireframing tool that is easy to manipul
 
 ## Testing <a name="testing"></a>
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Code Validation
+I started by running my files through the HTML and CSS validator service provided by W3C to ensure there were no coding issues. there were a few extra closing tags that had not been deleted when editing the code but other than that there were not any issues.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I then ran my site through 2, online site testers:
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+WAVE by https://wave.webaim.org/
+
+![wave test report](screenshots/wave.png)
+
+SortSite by https://www.powermapper.com/products/sortsite/
+
+![sortsite test report](screenshots/sortsite.png)
+
+Below were the main issues:
+
+*Text colour contrast: I Updated some of the colours to ensure that the text would be clearly visible but came to an impasse when the company colour scheme did not work well with some of the background colours. these will need to be further optimised.
+
+*Link text too vague: I changed the text in the link so that it better describes the link location.
+
+*Redundant link: This was because there was both a home link as well as the logo being a link to home. I kept this in because I believe the active class on the home link in the navbar provides the user with a type of "you are here" tag.
+
+*Empty links: This issue related to the fact that the social link lead only to the general site for each social media platform. as Greenstride currently does not have any social media pages i decided this would be better than leaving the destination blank.
+
+### user stories
+
+__Reminder of user story 1:__ The user wants to see the services Greenstride provide and how they go about these services.
+The information this user wants is easily accessible via the homepage as this provides general information about the company's practices and there is then a large button as well as a navbar link to navigate to the company's services.
+
+__Reminder of user story 2:__ Once the user has read through the information about the service they would like to use they need to be able to get in contact.
+This user can easily get to the contact page after reading the information about the services as there is a descriptive link at the bottom of each service that links to the contact page.
+
+__Reminder of user story 3:__ The user knows or has learnt of the services and would immediately like to get in contact.
+This user can easily get in contact either via the information in the footer or by navigating to the contact page via the contact tab in the navbar, or via the "get a quote" button in the jumbotron of the home page.
+
+__Reminder of user story 4:__ The User is an existing customer and would like to see what their company has used Greestride for in the past.
+I did not have the knowledge to be able to implement the code required to satisfy this user’s needs.
+
 
 ### Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+For Validation of the contact form I used some Java Script written by <a href="https://github.com/academind">Academind</a>.
+This code validated the input content required in each input.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+these are the results of the test:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+*First, I sent the form with none of the fields filled:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+![form with no fields filled](screenshots/form-none.png)
+
+*This was the result:
+
+![validated form showing that all fields are invalid](screenshots/form-none-validate.png)
+
+*Then, I sent the form with some of the fields filled:
+
+![form with only some of the fields filled](screenshots/form-some.png)
+
+*This was the result:
+
+![validated form showing that only one field is invalid](screenshots/form-some-validate.png)
+
+I believe the feedback gives the user enough information to fill in any fields that they missed the first time.
+
+### Responsivity
+Because I used Bootstraps built in, mobile first, design. The website works well on varying screen sizes. I used several class selectors within the HTML so that bootstraps styling could work its magic.
+
+Mobile layout:
+
+![screenshot of mobile layout](screenshots/mobile.png)
+
+Tablet/Medium screen size:
+
+![screenshot of tablet/ medium size layout](screenshots/tablet.png)
+
+large screen size:
+
+![screenshot of large size layout](screenshots/large.png)
+
+
 
 ## Deployment <a name="deployment"></a>
 
