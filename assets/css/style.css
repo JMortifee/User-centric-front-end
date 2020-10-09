@@ -273,6 +273,23 @@ form {
     background-image: none;
 }
 
+/* -------------------------------------------------------Modal --*/
+
+.enquiry-modal-toggle i:hover {
+    color: #718d06;
+}
+.modal-title, .modal-body {
+    color: black;
+}
+
+.modal-header button {
+    color: black;
+}
+
+.modal-header button:hover {
+    color: red;
+}
+
 /*-------------------------------------------------------large screen---*/
 
 @media only screen and (max-width: 1024px) {
