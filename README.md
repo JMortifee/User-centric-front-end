@@ -59,6 +59,8 @@ __Home Jumbotron Buttons:__ The Buttons on the jumbotron allow for a quick navig
 
 __Contact Form:__ The contact form allows users to send an enquiry directly from the website, by filling out the form or calling the number.
 
+__Enquiry Modal:__ The enquiry modal will give the user more information on what to put in the text box, by clicking on the question mark.
+
 __Existing Customer Login:__ A login for existing customers to view their transactions and recycled waste.
 
 ### Existing Features
@@ -76,6 +78,13 @@ __Home Jumbotron Buttons:__ The Buttons on the jumbotron of "learn more" and "ge
 __Contact Form:__ The contact form is clean and aesthetically pleasing with inputs that will give the person who receives the enquiry enough information to send a quote or contact the user for more information. I used light text on a dark background to ensure it was easy to read and not harsh on the eye.
 
 ![Navbar with home active and contact hovered over](screenshots/contact.png)
+
+__Enquiry Modal:__ The modal will give the user more information about what to put in the enquiry text box. I gave the toggle a hover effect that fit with the colour scheme and a close button that turned red when hovered over.
+
+![modal button](screenshots/modal-button.png)
+![modal button hoverd over turns green](screenshots/modal-hover.png)
+![screenshot of modal](screenshots/modal-toggled.png)
+![modal close hover](screenshots/modal-close.png)
 
 ### Features Left to Implement
 
