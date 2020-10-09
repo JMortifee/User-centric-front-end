@@ -12,23 +12,23 @@ Greenstried's website will be viewed by potential customers who are both knowled
 
 Below are four user stories that have been extrapolated out of 2 epics:
 
-_Epic 1:_ users want to be able to view the services that greenstride provides so that they can determine if they are the services the user requires. The user can then learn more about these services in more detail and get in contact if they want a quote.
+_Epic 1:_ users want to be able to view the services that Greenstride provides so that they can determine if they are the services the user requires. The user can then learn more about these services in more detail and get in contact if they want a quote.
 
-_user story 1:_ The user wants to see the services greenstride provide and how they go about thse services.
+_user story 1:_ The user wants to see the services Greenstride provide and how they go about these services.
 
-_Solution to user story 1:_ When the user laods the website the home page will contain a brief overview of the company, there will also be a button for the user to click to get to the services page to learn more about the company.
+_Solution to user story 1:_ When the user loads the website the home page will contain a brief overview of the company, there will also be a button for the user to click to get to the services page to learn more about the company.
 
 ![Home Wireframe](wireframes/home-wireframe.png)
 Format: ![Wireframe depicting home page design](url)
 
-_User story 2:_ Once the user has read through the informaton about the service they would like to use they need to be able to get in contact.
+_User story 2:_ Once the user has read through the information about the service they would like to use they need to be able to get in contact.
 
-_Solution for user story 2:_  at the end of each services section an embeded link in some text will guide them to the contact page.
+_Solution for user story 2:_  at the end of each services section an embedded link in some text will guide them to the contact page.
 
 ![Home Wireframe](wireframes/services-wireframe.png)
 Format: ![Wireframe depicting services page design](url)
 
-_Epic 2:_ Existing customers or users who have been reccomended Greenstrid, want to be able to get a quote quickly.
+_Epic 2:_ Existing customers or users who have been recommended Greenstride, want to be able to get a quote quickly.
 
 _User story 3:_ The user knows or has learnt of the services and would immediately like to get in contact.
 
@@ -37,12 +37,13 @@ _Solution for user story 3:_  Next to the learn more button there will be a quic
 ![Home Wireframe](wireframes/home-wireframe.png)
 Format: ![Wireframe depicting home page design](url)
 
-_user story 4:_ The User is an existing customer and would like to see what their company ahs used greestride for in the past.
+_user story 4:_ The User is an existing customer and would like to see what their company has used Greestride for in the past.
 
 _Solution to user story 4:_ A login section will allow users to see their previous invoices and transactions.
 
 ![Home Wireframe](wireframes/contact-wireframe.png)
 Format: ![Wireframe depicting contact page design](url)
+
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
