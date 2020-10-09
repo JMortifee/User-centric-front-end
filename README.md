@@ -10,8 +10,8 @@ Greenstride are specialists in IT relocation, installation, and recycling, based
 3. [JQuery](#jq)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
-6. [Credits] (#credits)
-7. [SIte] (https://jmortifee.github.io/user-centric-front-end/)
+6. [Credits](#credits)
+7. [SIte](https://jmortifee.github.io/user-centric-front-end/ target="_blank")
 
 ## UX <a name="UX"></a>
 
