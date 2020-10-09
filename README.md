@@ -4,7 +4,16 @@ For this project, I have decided to develop a website for the IT relocation comp
 
 Greenstride are specialists in IT relocation, installation, and recycling, based in the southwest of the UK and South Wales. 
 
-## UX
+# Table of Contents
+1. [UX](#UX)
+2. [Features](#features)
+3. [JQuery](#jq)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits] (#credits)
+7. [SIte] (https://jmortifee.github.io/user-centric-front-end/)
+
+## UX <a name="UX"></a>
 
 Greenstried's website will be viewed by potential customers who are both knowledgable, and completely new to the services Greenstride provides. To ensure both parties, and all of those in between, have a positive emotional reaction to the site, the information must be informative without being jargon-filled. Images will be placed in each section to inform the user, at a glance what the section is about.
 
@@ -45,7 +54,7 @@ _Solution to user story 4:_ A login section will allow users to see their previo
 Format: ![Wireframe depicting contact page design](url)
 
 
-## Features
+## Features <a name="features"></a>
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
@@ -62,10 +71,10 @@ Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-## JQuery
+## JQuery <a name="jq"></a>
 The project uses JQuery to simplify DOM manipulation.
 
-## Testing
+## Testing <a name="testing"></a>
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -85,7 +94,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+## Deployment <a name="deployment"></a>
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -96,7 +105,7 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-## Credits
+## Credits <a name="credits"></a>
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
