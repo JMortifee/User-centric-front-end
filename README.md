@@ -1,17 +1,19 @@
-# Greenstride (UX Design for User-Centric Front End Milestone Project)
-
-For this project, I have decided to develop a website for the IT relocation company greenstride. The overall goal of the project will be to create an attractive and intuitive website to increase traffic and inquiries. The website must contain at least 3 pages of custom HTML5 and a supporting CSS3 style document. There must be a navbar and a supporting README.md file.
-
-Greenstride are specialists in IT relocation, installation, and recycling, based in the southwest of the UK and South Wales. 
+# Greenstride (UX Design for User-Centric Front End Milestone Project) 
 
 # Table of Contents
-1. [UX](#UX)
-2. [Features](#features)
-3. [JQuery](#jq)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
-7. <a href="https://jmortifee.github.io/user-centric-front-end/" target="_blank">Site</a>
+1. [Introduction](#intro) 
+2. [UX](#UX)
+3. [Features](#features)
+4. [JQuery](#jq)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. <a href="https://jmortifee.github.io/user-centric-front-end/" target="_blank">Site</a>
+
+## Introduction <a name="intro"></a>
+For this project, I have decided to develop a website for the IT relocation company greenstride. The overall goal of the project will be to create an attractive and intuitive website to increase traffic and inquiries. The website must contain at least 3 pages of custom HTML5 and a supporting CSS3 style document. There must be a navbar and a supporting README.md file.
+
+Greenstride are specialists in IT relocation, installation, and recycling, based in the southwest of the UK and South Wales.
 
 ## UX <a name="UX"></a>
 
