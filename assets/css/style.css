@@ -13,6 +13,9 @@ body {
     width: 100%;
 }
 
+a {
+    color: #b7c704;
+}
 /*--------------------------------------------------Header-------*/
 
 header {
@@ -72,8 +75,8 @@ footer p {
 }
 
 
-footer h6 {
-    color: rgb(173, 173, 173);
+footer h5 {
+    color: #718d06;
 }
 
 .contact-info {
@@ -113,10 +116,11 @@ footer h6 {
 
 #copyright h6 {
     padding-top: 20px;
+    color: white;
 }
 
 .cp-text {
-    color: grey;
+    color: #718d06;
 }
 
 /*-----------------------------------------------------Jumbotron-----*/
@@ -152,7 +156,7 @@ footer h6 {
     margin: 0 20px;
     background-color: #b7c704;
     border-color: transparent;
-    color: #fff;
+    color: black;
 }
 
 .btn:hover {
@@ -172,7 +176,7 @@ footer h6 {
 
 .banner h2 {
     font-size: 40px;
-    color: #f6f6f6;
+    color: black;
 }
 
 .home {
