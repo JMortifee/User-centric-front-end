@@ -130,7 +130,7 @@ WAVE by https://wave.webaim.org/
 
 SortSite by https://www.powermapper.com/products/sortsite/
 
-![sortsite test report](screenshots/sortsite.png)
+![sortsite test report](screenshots/sitesort.png)
 
 Below were the main issues:
 
