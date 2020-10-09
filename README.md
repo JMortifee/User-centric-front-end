@@ -202,25 +202,53 @@ X-large screen size:
 ![screenshot of large size layout services](screenshots/xl-services.png)
 ![screenshot of large size layout contact](screenshots/xl-contact.png)
 
-
 ## Deployment <a name="deployment"></a>
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I used Github pages to deploy my site. This tool makes it very easy to deploy your site.
+Once all of my files were in there final deployment state, I went to the settings tab of the Github Repo I wanted to deploy.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+![screenshot of my project repo settings tab](screenshots/repo-screenshot.png)
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I then scrolled down to the Github pages section where I then selected the branch from which to deploy (master):
+
+![screenshot of github pages section of the settings tab](screenshots/github-pages-screenshot.png)
+
+Within several minutes the site was live at this address: https://jmortifee.github.io/user-centric-front-end/index.html
 
 ## Credits <a name="credits"></a>
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
 
+### Content
+validation script in contact.html
+__Author:__ https://github.com/academind
+__Source code:__ https://github.com/academind/bootstrap4-introduction/tree/02-grid
+
+#### Media
+
+##### Home
+home-hero: https://i.ytimg.com/vi/5Y1GpL768Sk/maxresdefault.jpg
+
+home-mobile-hero: https://ceeds.ie/wp-content/uploads/2020/08/CEEDS-Centre-of-Digital-Excellence-Dublin.jpg
+
+home-img-1: https://www.incimages.com/uploaded_files/image/1024x576/getty_951514270_400405.jpg
+
+home-img-2: https://chacc.co.uk/wp-content/uploads/2019/07/Partnership.jpg
+
+home-img-3: https://www.scout.org/sites/default/files/styles/770x/public/content_images/sustainabilityenvironment_4.jpg?itok=E41l8Aky
+
+##### Services
+
+service-hero: https://westraycomputers.co.uk/wp-content/uploads/2019/11/hd-wallpapers-computer-1.jpg
+
+service-img-1: https://image.freepik.com/free-photo/miniature-engineer-worker-plug-lan-cable-computer_1252-838.jpg
+
+services-img-2: https://www.expertmanandvan.co.uk/wp-content/uploads/2020/02/Moving-Office1200px.jpg
+
+services-img-3: https://gptwaste.com/wp-content/uploads/2019/07/WEEE.jpg
+
+##### Contact
+
+contact-hero: https://img1.wsimg.com/isteam/stock/6yOme1a/:/rs=h:1000,cg:true,m
+
+contact-mobile-hero: https://www.dqindia.com/wp-content/uploads/2016/02/datacenter.jpg
 
 Click <a href="https://jmortifee.github.io/user-centric-front-end/" target="_blank">here</a> to view the site.
