@@ -4,7 +4,7 @@
 1. [Introduction](#intro) 
 2. [UX](#UX)
 3. [Features](#features)
-4. [JQuery](#jq)
+4. [Technologies](#tech)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
@@ -57,9 +57,22 @@ Format: ![Wireframe depicting contact page design](url)
 
 
 ## Features <a name="features"></a>
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+__Navbar:__ The navbar is used to easily navigate between the pages of the site.
+
+__Home Jumbotron Buttons:__ The Buttons on the jumbotron allow for a quick navigation to the desired location.
+
+__Contact Form:__ The contact form allows users to send an enquiry directly from the website.
+
+__Existing Customer Login:__ A login for existing customers to view their transactions and recycled waste.
 
 ### Existing Features
+
+__Navbar:__ The navbar is used to easily navigate between the pages of the site.
+
+__Home Jumbotron Buttons:__ The Buttons on the jumbotron allow for a quick navigation to the desired location.
+
+__Contact Form:__ The contact form allows users to send an enquiry directly from the website.
 
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
@@ -69,12 +82,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+__Existing Customer Login:__ A login for existing customers to view their transactions and recycled waste.
 
-## JQuery <a name="jq"></a>
-The project uses JQuery to simplify DOM manipulation.
+
+## Technologies <a name="tech"></a>
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ## Testing <a name="testing"></a>
 
